@@ -43,7 +43,7 @@ header{
     
     border-radius: 50%;
     overflow: hidden;
-    height: 210px;
+    height: 240px;
     width: 30%; 
 }
 
@@ -121,7 +121,7 @@ header{
     transition: all 0.3s;
 }
 .gallery-item:hover .gallery-item-info {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     
 
@@ -171,8 +171,8 @@ header{
     .profile-image{
         margin-right: 0;
         margin-bottom: 10px;
-        width: 100px;
-        height: 100px;
+        width: 50%;
+        height: 200px;
     }
     .profile-user-settings, .profile-stats {
         width: 100%;
@@ -181,6 +181,7 @@ header{
     }
     .gallery {
         grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        
     }
 
 }
