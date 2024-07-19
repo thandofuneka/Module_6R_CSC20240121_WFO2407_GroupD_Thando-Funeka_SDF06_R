@@ -124,6 +124,7 @@ header{
 .gallery-item:hover .gallery-item-info {
     font-size: 25px;
     font-weight: 500;
+    
 
 }
 
@@ -161,6 +162,7 @@ header{
 }
 .btn:hover {
     background-color: #777777;
+    cursor: pointer;
 }
 @media (max-width: 750px) {
     .profile {
